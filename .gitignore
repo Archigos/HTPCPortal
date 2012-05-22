@@ -1,0 +1,10 @@
+# Ignore
+/Notes.md
+/settings.ini
+/clearcaches.cmd
+
+# Crap
+[Tt]humbs.db 
+Desktop.ini
+.DS_Store*
+ehthumbs.db
