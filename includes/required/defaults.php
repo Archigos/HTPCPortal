@@ -1,5 +1,5 @@
 <?php
-$version = 1.3;
+$version = 1.5;
 $ini_ini_filename = 'settings.ini';
 if (@is_readable($ini_ini_filename)) {
 	$ini = parse_ini_file($ini_ini_filename, FALSE);
@@ -65,11 +65,32 @@ $ini['ignore_files'] = array('.', '..', $ini_ini_filename, $ini['description_fil
 //JSON Calls
 include('includes/required/jsoncommands.php');
 
-//Left hand menu
+//App Calls
 $MenuClass  = 'class="classname2"';
 $MenuTarget = 'target="myiframe"';
 $MenuLeft   = '<a' . " " . $MenuClass . $MenuTarget;
-$MenuTop    = '<a' . " " . $MenuClass . $MenuTarget;
-$MenuTopR   = '<a' . " " . $MenuClass . $MenuTarget;
+$CallXBMC   = $ini['xbmc'] . ":" . $ini['xport'];
+$CallPlex   = $ini['plex'] . ":" . $ini['plexport'];
+$CallMara   = $ini['mara'] . ":" . $ini['maraport'];
+$CallSick   = $ini['sick'] . ":" . $ini['sbport'];
+$CallCouch  = $ini['couch'] . ":" . $ini['cpport'];
+$CallSab    = $ini['sab'] . ":" . $ini['sabport'];
+$CalluTor   = $ini['utor'] . ":" . $ini['utport'] . "/gui/";
+$CallHead   = $ini['headphones'] . ":" . $ini['headport'];
+$CallTran   = $ini['transmission'] . ":" . $ini['tranport'];
+
+function writeAppURL($AppURL,$AppName) {
+	echo '<a class="classname2" target="myiframe" href="http://' . $AppURL . '">' . $AppName . '</a>';
+}
+function writeAppFull($AppURL,$ImageName) {
+	echo '<a class="classname2" target="myiframe" href="http://' . $AppURL . '"><img src="includes/images/apps/' . $ImageName . '.png" /></a>';
+}
+function callRemote($RemType) {
+	echo '<a class="classname2" target="myiframe" href="' . $RemType . '">Remote</a>';
+}
+$Remote = 'remote.php';
+$iPad	= 'remote_ipad.php';
+
+
 
 ?>

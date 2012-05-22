@@ -15,7 +15,7 @@ require 'includes/required/header.php';
 <link href="includes/css/remote.css" rel="stylesheet" type="text/css">
 <p style="color:white">Well, I know this page looks like crap... for now, I'm just screwing around with a layout... the Editor link is the only thing working.<br /><br />
 Speaking of Editor link... I'll explain that more later, but for now, use it and the output you get should be placed in your 'settings.ini' in one of the five "feedX" variables.</p>
-<a href="includes/required/feed2js/build.php">RSS Editor</a><br />
+<a class="classname2" href="includes/required/feed2js/build.php">RSS Editor</a><br />
 
 <div class="remotearrows">
 	
