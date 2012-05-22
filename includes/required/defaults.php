@@ -53,7 +53,7 @@ function writeRSS($feed,$rsscount) {
 }
 
 // Navigation Links
-$ini['matrix_link']                                         = 'nzbmatrix.com/nzb.php?';
+$matrix_link												= 'nzbmatrix.com/nzb.php?';
 
 // Advanced Settings NOT in ini by default
 if (!isset($ini['charset'])) { $ini['charset']              = 'windows-1251'; }
@@ -90,7 +90,5 @@ function callRemote($RemType) {
 }
 $Remote = 'remote.php';
 $iPad	= 'remote_ipad.php';
-
-
 
 ?>

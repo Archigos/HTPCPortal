@@ -2,8 +2,9 @@
 
 HTPCPortal is a PHP based 'wrapper' for use on your home network. Similar to the way [Maraschino](http://maraschinoproject.com) brings together information from multiple HTPC related apps. Portal gives you extra functionality by not limiting the the types of links you use.
 
-![preview thumb](http://archigos.dlinkddns.com/screenshots/portal/portalHome.png)
+![preview thumb](http://goo.gl/EfKk4)
 Disregard the Maraschino 'issues' in the above screenshot, it was taken on a low resolution laptop and the Pre-Frodo 'fix' hadn't been applied to Maraschino yet.
+<br />Visit [here](http://www.dropbox.com/gallery/55460583/1/HTPCPortal?h=d0dd3c) for more images.
 
 ## Dependencies
 HTPCPortal requires an Apache/PHP Webserver to be running on the machine or network and must have PHP 5 configured correctly.

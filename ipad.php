@@ -54,10 +54,10 @@ require 'includes/required/jsoncommands.php';
         <li><?php writeAppURL($CallCouch,CouchPotato); ?></li>
         <li><?php writeAppURL($CalliPad,Matrix); ?>
             <ul>
-                <li><a href="http://<?php echo $ini['matrix_link'] ?>category=Movies" target="myiframe" title="Movies"><img src="includes/images/movies.png" width="104" height="104" /></a></li>
-                <li><a href="http://<?php echo $ini['matrix_link'] ?>category=TV" target="myiframe" title="TV"><img src="includes/images/tv.png" width="104" height="104" /></a></li>
-                <li><a href="http://<?php echo $ini['matrix_link'] ?>category=Apps" target="myiframe" title="Applications"><img src="includes/images/apps.png" width="104" height="104" /></a></li>
-                <li><a href="http://<?php echo $ini['matrix_link'] ?>cat=14" target="myiframe" title="Xbox"><img src="includes/images/xbox.png" width="104" height="104" /></a></li>
+                <li><a href="http://<?php echo $matrix_link ?>category=Movies" target="myiframe" title="Movies"><img src="includes/images/movies.png" width="104" height="104" /></a></li>
+                <li><a href="http://<?php echo $matrix_link ?>category=TV" target="myiframe" title="TV"><img src="includes/images/tv.png" width="104" height="104" /></a></li>
+                <li><a href="http://<?php echo $matrix_link ?>category=Apps" target="myiframe" title="Applications"><img src="includes/images/apps.png" width="104" height="104" /></a></li>
+                <li><a href="http://<?php echo $matrix_link ?>cat=14" target="myiframe" title="Xbox"><img src="includes/images/xbox.png" width="104" height="104" /></a></li>
             </ul>
         </li>
         <li><?php writeAppURL($CalliPad,NZB.su); ?>
@@ -97,7 +97,7 @@ require 'includes/required/jsoncommands.php';
                 <li><a href="http://www.youtube.com/" target="myiframe"><img src="includes/images/youtube.png" width="104" height="60" /></a></li>
             </ul> 
         </li>
-    </ul>
+	</ul>
 </div>
 <!-- Top Navigation: End -->
 <?php require 'includes\required\jsonframe.php'; ?>
