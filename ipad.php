@@ -38,7 +38,7 @@ require 'includes/required/jsoncommands.php';
     <?php writeAppFull($CalluTor,uTorrent); ?>
 </div>
 <div id="nav">
-    <a class="classname2" target="myiframe" href="http://<?php echo $CallXBMC ?>"><img src="includes/images/apps/default.png" /></a>
+    <a class="classname2" target="_blank" href="https://github.com/Archigos/HTPCPortal"><img src="includes/images/apps/github.png" /></a>
 </div>
 </div>
 <!-- Left Menu: End -->

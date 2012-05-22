@@ -151,7 +151,8 @@ require 'includes/required/jsoncommands.php';
                 <li><a href="http://en.wikipedia.org/" target="myiframe"><img src="includes/images/wikipedia.png" width="104" height="60" /></a></li>
             </ul>
         </li> 
-    </ul>
+		<li><a class="classname2" target="_blank" href="https://github.com/Archigos/HTPCPortal">GitHub</a></li>
+	</ul>
 </div>
 <!-- Top Navigation: End -->
 <?php require 'includes\required\jsonframe.php'; ?>
