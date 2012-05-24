@@ -1,10 +1,12 @@
 # Ignore
 /Notes.md
 /settings.ini
-/clearcaches.cmd
+/createmaster.ps1
 
 # Crap
 [Tt]humbs.db 
 Desktop.ini
 .DS_Store*
 ehthumbs.db
+
+# Magpie Cache

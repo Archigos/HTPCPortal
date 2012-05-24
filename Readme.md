@@ -1,18 +1,25 @@
 #HTPC Portal
 
-HTPCPortal is a PHP based 'wrapper' for use on your home network. Similar to the way [Maraschino](http://maraschinoproject.com) brings together information from multiple HTPC related apps. Portal gives you extra functionality by not limiting the the types of links you use.
+The HTPCPortal is a PHP based 'wrapper' for use on your home network, providing quick access to all of your HTPC related apps and sites as well as other commonly used sites. Although there are other 'consolidation' sites out there, like [Maraschino](http://maraschinoproject.com), which incorporates information from multiple HTPC Apps in a great fashion, sometimes there's a need to quickly swap between the actual applications as opposed to just viewing partial info.
 
-![preview thumb](http://goo.gl/EfKk4)
-Disregard the Maraschino 'issues' in the above screenshot, it was taken on a low resolution laptop and the Pre-Frodo 'fix' hadn't been applied to Maraschino yet.
-<br />Visit [here](http://www.dropbox.com/gallery/55460583/1/HTPCPortal?h=d0dd3c) for more images.
+![preview thumb](https://photos-1.dropbox.com/i/o/u6TwI5WLm7i8clWRwQSKkWs8pyCpHVF9l6AOvIYRIas/55460583/1337936400/fe03233/HTPCPortal-Home.png)
+
+![ipad version](https://photos-3.dropbox.com/i/o/MR_bPRclfLzfu9-e16HCCobeMH5m87qvUt0OLtpYhrk/55460583/1337936400/aae7beb/iPad-FullScreen.png)
+iPad specific version made to utilize it's native 1024x768 screen resolution. (Shown Full Screen with "Atomic Browser" for iOS.)
+
+![panel demo](https://photos-3.dropbox.com/i/o/QLLFj7KWBw4zXMM-LmikWDfAsrnX5DMQYd3OJt0BTeo/55460583/1337936400/8b6211b/HTPCPortal-Panel.png)
+A demonstration of the AJAX Panel showing the projects thread area on the [Constellation Forums](http://constellation.ictcsc.net/index.php?board=33.0).
 
 ## Dependencies
 HTPCPortal requires an Apache/PHP Webserver to be running on the machine or network and must have PHP 5 configured correctly.
 
 ## Install
-Drop the entire folder structure on to your currently configured server and load the page in your browser.
+Drop the entire folder structure on to your previously configured server and load the page in your browser.
 
-## Known Issues
+## Known Issues and Reporting Bugs
+Since there are 2 different repos for this project (explained below), make sure you visit the correct page when reporting your issue.
+
+### Current Issue
 This site is currently sending JSON calls to XBMC via the now depreciated HTTP API and need to be converted over to true JSON API calls. This site was tested against a Pre-Frodo Nightly build (May 16, 2012) and all is working.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -49,6 +56,11 @@ Special Notes:<br />
 	above. You should verify that the RSS feed is valid from the Editor page prior to using
 	it. If you'd like to use an image for your RSS Feed, make it 14x14 and mimic 'feed5name'.
 	*/
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Why Two Repos?
+This project is maintained on two seperate Repos, where [HTPCPortal](https://github.com/Archigos/HTPCPortal) acts as the "Master" or release (stable) version; and [HTPCPortalTest](https://github.com/Archigos/HTPCPortalTest) acts as cutting edge (read as: unstable and may/will probably break often).<br />
+So, again, based on how GitHub works... why two repos and not two branchs? The simple answer is, I got drunk after I made my third (maybe fourth) commit to the first repo and decided I wanted to be safe and create a secondary place for testing... and, oops. Wrong option, but works just the same.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 More detailed information will be included later...

@@ -104,13 +104,7 @@ $tz = (isset($_GET['tz'])) ? $_GET['tz'] : 'feed';
 
 $targ = (isset($_GET['targ'])) ? $_GET['targ'] : 'n';
 if ($targ == 'n') {
-	$target_window = ' target="_self"';
-} elseif ($targ == 'y' ) {
-	$target_window = ' target="_blank"';
-} elseif ($targ == 'popup') {
-	$target_window = ' onClick="popupfeed(this.href);return false"';
-} else {
-	$target_window = ' target="' . $targ . '"';
+	$target_window = ' rel="ajaxpanel"';
 }
 
 // flag to show feed as full html output rather than JavaScript, used for alternative

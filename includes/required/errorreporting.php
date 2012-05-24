@@ -29,4 +29,3 @@ if (!$REQUEST_PATH) {
 }
 //$REQUEST_PATH never has starting and trailing slashes
 //$SERVER_PHP_SELF always has starting and trailing slashes
-?>
