@@ -85,9 +85,16 @@ function query_str(form) {
 //-->
 </script>
 <script src="popup.js" type="text/javascript" language="Javascript"></script>
+<script type="text/javascript">
+function goBack() {
+	window.history.go(-1)
+}
+</script>
+
 </head>
 <body>
 <div id="content">
+	<div id="nav"><center><input class="classpanel" type="button" value="Go Back" onclick="goBack()" /></center></div>
 	<h1>Feed2JS Build</h1>
 	<p class="first">The original version of this tool can be found <a href="http://feed2js.org/" target="_new">here</a> and is Open Source. In the spirit of Open Source, the local copy provided with this project has been modified/stripped down to help remove confusion for the end users.</p>
 	<hr />
