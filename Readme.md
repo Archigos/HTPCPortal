@@ -1,3 +1,7 @@
+The development of the HTPC Portal is still ongoing, however, the project has been moved to a private repo on BitBucket...
+There's been a lot of progress made over the last year and if enough people show interest we'll make the new repos public.
+
+
 #HTPC Portal
 
 The HTPCPortal is a PHP based 'wrapper' for use on your home network, providing quick access to all of your HTPC related apps and sites as well as other commonly used sites. Although there are other 'consolidation' sites out there, like [Maraschino](http://maraschinoproject.com), which incorporates information from multiple HTPC Apps in a great fashion, sometimes there's a need to quickly swap between the actual applications as opposed to just viewing partial info.
